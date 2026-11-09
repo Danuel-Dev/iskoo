@@ -6,10 +6,10 @@ ISKO.demoAccounts = [
 ];
 ISKO.catalog = [
   { id: 'cor', short: 'COR', name: 'Certificate of Registration', description: 'Your official record of subjects and enrollment.', price: 50, days: 'Instant', icon: 'registration', color: 'blue', tag: 'INSTANT' },
-  { id: 'cog', short: 'COG', name: 'Certificate of Grades', description: 'A summary of your grades for an academic term.', price: 50, days: '2–3 working days', icon: 'chart', color: 'purple' },
-  { id: 'moral', short: 'Good Moral', name: 'Certificate of Good Moral', description: 'A certification of your character and conduct.', price: 75, days: '2–3 working days', icon: 'shield-check', color: 'green' },
-  { id: 'tor', short: 'TOR', name: 'Transcript of Records', description: 'Your complete academic record, all in one place.', price: 150, days: '5–7 working days', icon: 'graduation', color: 'orange' },
-  { id: 'enrollment', short: 'Enrollment', name: 'Certificate of Enrollment', description: 'A certification of your current student status.', price: 50, days: '1–2 working days', icon: 'building', color: 'cyan' },
+  { id: 'cog', short: 'COG', name: 'Certificate of Grades', description: 'A summary of your grades for an academic term.', price: 50, days: 'Instant', icon: 'chart', color: 'purple', tag: 'INSTANT' },
+  { id: 'moral', short: 'Good Moral', name: 'Certificate of Good Moral', description: 'A certification of your character and conduct.', price: 75, days: 'Instant', icon: 'shield-check', color: 'green', tag: 'INSTANT' },
+  { id: 'tor', short: 'TOR', name: 'Transcript of Records', description: 'Your complete academic record, all in one place.', price: 150, days: 'Instant', icon: 'graduation', color: 'orange', tag: 'INSTANT' },
+  { id: 'enrollment', short: 'Enrollment', name: 'Certificate of Enrollment', description: 'A certification of your current student status.', price: 50, days: 'Instant', icon: 'building', color: 'cyan', tag: 'INSTANT' },
   { id: 'other', short: 'Other document', name: 'Other Document', description: 'Something else? Tell us what document you need.', price: null, days: 'Subject to assessment', icon: 'file-plus', color: 'slate' }
 ];
 ISKO.steps = ['Student login', 'Choose document', 'Enter details', 'Payment option', 'Preview & print'];
