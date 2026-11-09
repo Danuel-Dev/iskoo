@@ -1,4 +1,14 @@
 /* In-system styles */
+.workspace {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(238, 135, 57, 0.055), transparent 25%),
+    radial-gradient(circle at 0% 100%, rgba(7, 93, 156, 0.055), transparent 30%);
+}
+
+.kiosk-bar {
+  background: linear-gradient(100deg, rgba(7, 93, 156, 0.025), rgba(238, 135, 57, 0.035)), #fff !important;
+}
+
 .kiosk-bar .brand-logo {
   width: 82px !important;
   height: 82px !important;
