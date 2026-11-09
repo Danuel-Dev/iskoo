@@ -360,7 +360,7 @@ body.kiosk .mail-row pre{margin:0;white-space:pre-wrap;font:inherit;font-size:1r
   body.kiosk .staff-actions{grid-column:1/-1}
   body.kiosk .staff-tabs{margin:0}
   body.kiosk .overlay-head{flex-wrap:wrap}
-}
+ }
 }
 
 @media print{#osk,.picker-backdrop,#idle-dialog,.overlay{display:none!important}}

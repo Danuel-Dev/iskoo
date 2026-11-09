@@ -1,13 +1,12 @@
 /* In-system styles */
 .kiosk-bar .brand-logo {
-  width: 150x !important;
-  height: 100px !important;
-  margin-left: -200px;
-  margin-right: -200px;  
+  width: 82px !important;
+  height: 82px !important;
+  margin: 0 !important;
   object-fit: contain;
 }
 
-.preview-actions {height: 10px;}
+.preview-actions { display: flex; align-items: center; justify-content: flex-end; gap: 10px; height: auto; }
 .gcash-qr { display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 18px 0; padding: 14px; background: #fff; border: 1px solid #dfe6ed; border-radius: 8px; }
 .gcash-qr img { display: block; width: min(220px, 100%); height: auto; aspect-ratio: 1; object-fit: contain; margin: 0 auto; }
 .gcash-qr span { color: #718295; font-size: 10px; font-weight: 600; }
